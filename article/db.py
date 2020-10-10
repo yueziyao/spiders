@@ -7,7 +7,6 @@ url = os.getenv('DB_URL')
 password = os.getenv('DB_PASSWORD')
 
 def insertData(data):
-    print(username)
     cilent = pymongo.MongoClient(url,
         username= username,
         password= password,
