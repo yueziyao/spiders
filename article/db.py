@@ -7,10 +7,11 @@ url = os.getenv('DB_URL')
 password = os.getenv('DB_PASSWORD')
 
 def insertData(data):
+    print(username)
     cilent = pymongo.MongoClient(url,
-        username=username,
-        password=password,
-        authSource='admin',
+        username= username,
+        password= password,
+        authSource= 'admin',
         authMechanism='SCRAM-SHA-1')
 
     db = cilent["app"] #连接mydb数据库，没有则自动创建
