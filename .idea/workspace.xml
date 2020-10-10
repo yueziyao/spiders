@@ -21,6 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="48470bc4-a180-4268-8d6c-c75a5773ee91" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.github/workflows/cur-weather.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/cur-weather.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/daily-article.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/daily-article.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
