@@ -1,10 +1,15 @@
 import pymongo
 import json
+import os
+
+username = os.getenv('DB_USERNAME')
+url = os.getenv('DB_URL')
+password = os.getenv('DB_PASSWORD')
 
 def insertWeather(data):
-    cilent = pymongo.MongoClient('mongodb://yzy.myqnapcloud.cn:32774/',
-        username="iced",
-        password='iced',
+    cilent = pymongo.MongoClient(url,
+        username=username,
+        password=password,
         authSource='admin',
         authMechanism='SCRAM-SHA-1')
 
@@ -16,9 +21,9 @@ def insertWeather(data):
     cleanData()
 
 def cleanData():
-    cilent = pymongo.MongoClient('mongodb://yzy.myqnapcloud.cn:32774/',
-        username="iced",
-        password='iced',
+    cilent = pymongo.MongoClient(url,
+        username=username,
+        password=password,
         authSource='admin',
         authMechanism='SCRAM-SHA-1')
 

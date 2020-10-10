@@ -22,6 +22,8 @@
     <list default="true" id="48470bc4-a180-4268-8d6c-c75a5773ee91" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.github/workflows/python-app.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/python-app.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/article/db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/weather/db.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/weather/getWeather.py" beforeDir="false" afterPath="$PROJECT_DIR$/weather/getWeather.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
