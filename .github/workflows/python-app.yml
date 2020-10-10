@@ -4,10 +4,8 @@
 name: Python application
 
 on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+  schedule:
+    - cron: '*/1 * * * *'
 
 jobs:
   build:
@@ -27,4 +25,4 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: run weather
       run: |
-        python3 weather/getWeather.py
+        python3 weather/getWeather.py article/getarticles.py
