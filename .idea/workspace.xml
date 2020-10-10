@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48470bc4-a180-4268-8d6c-c75a5773ee91" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/daily-article.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/daily-article.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/cur-weather.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/cur-weather.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,11 +109,41 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:/Users/alex/Documents/project/spiders/.github/workflows" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State />
           </value>
         </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
       </map>
     </option>
   </component>
@@ -130,6 +160,10 @@
       <screen x="65" y="23" width="2495" height="1417" />
     </state>
     <state width="1492" height="466" key="DebuggerActiveHint/65.23.2495.1417/2560.23.1792.1097@65.23.2495.1417" timestamp="1602294563315" />
+    <state x="772" y="209" width="1433" height="1100" key="DiffContextDialog" timestamp="1602302304755">
+      <screen x="65" y="23" width="2495" height="1417" />
+    </state>
+    <state x="772" y="209" width="1433" height="1100" key="DiffContextDialog/65.23.2495.1417/2560.23.1792.1097@65.23.2495.1417" timestamp="1602302304755" />
     <state width="1746" height="385" key="GridCell.Tab.0.bottom" timestamp="1602297987131">
       <screen x="65" y="23" width="2495" height="1417" />
     </state>
@@ -162,5 +196,9 @@
       <screen x="65" y="23" width="2495" height="1417" />
     </state>
     <state width="1746" height="385" key="GridCell.Tab.1.right/65.23.2495.1417/2560.23.1792.1097@65.23.2495.1417" timestamp="1602297987131" />
+    <state x="772" y="209" width="1433" height="1100" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1602302304755">
+      <screen x="65" y="23" width="2495" height="1417" />
+    </state>
+    <state x="772" y="209" width="1433" height="1100" key="com.intellij.history.integration.ui.views.FileHistoryDialog/65.23.2495.1417/2560.23.1792.1097@65.23.2495.1417" timestamp="1602302304755" />
   </component>
 </project>
