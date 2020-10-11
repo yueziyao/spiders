@@ -7,7 +7,7 @@ url = os.getenv('DB_URL')
 password = os.getenv('DB_PASSWORD')
 
 def insertWeather(data):
-    cleanData()
+    
     cilent = pymongo.MongoClient(url,
         username=username,
         password=password,
