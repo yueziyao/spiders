@@ -30,10 +30,3 @@ jobs:
         DB_URL: ${{ secrets.DB_URL }}
       run: |
         python3 weather/getWeather.py
-    - name: run getArticles
-      env:
-        DB_USERNAME: ${{ secrets.DB_USERNAME }}
-        DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
-        DB_URL: ${{ secrets.DB_URL }}
-      run: |
-        python3 article/getArticles.py
