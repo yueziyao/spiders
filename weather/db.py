@@ -16,7 +16,7 @@ def insertWeather(data):
 
     db = cilent["app"] #连接mydb数据库，没有则自动创建
     collection = db["daily"]
-    str = json.loads(data[0].T.to_json()).values()
+    str = json.loads(data.T.to_json()).values()
 
     res = collection.insert_many(str)
     

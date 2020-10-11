@@ -20,9 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48470bc4-a180-4268-8d6c-c75a5773ee91" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/cur-weather.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/cur-weather.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/daily-article.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/daily-article.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/spiders.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/spiders.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/weather/db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather/getWeather.py" beforeDir="false" afterPath="$PROJECT_DIR$/weather/getWeather.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,9 +46,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.github/workflows" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -55,7 +58,7 @@
       <recent name="$PROJECT_DIR$/article" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.getArticles">
+  <component name="RunManager" selected="Python.getWeather">
     <configuration name="getArticles" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="spiders" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -84,9 +87,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="$USER_HOME$/PycharmProjects/spider/venv/bin/python" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/weather" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/weather/getWeather.py" />
@@ -98,15 +101,40 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.getArticles" />
+      <item itemvalue="Python.getWeather" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.getArticles" />
         <item itemvalue="Python.getWeather" />
+        <item itemvalue="Python.getArticles" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="48470bc4-a180-4268-8d6c-c75a5773ee91" name="Default Changelist" comment="" />
+      <created>1602417670147</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602417670147</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -148,8 +176,17 @@
         <entry key="1" value="TOOL_WINDOW" />
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="104" y="23" width="1071" height="709" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602418342768">
+      <screen x="0" y="23" width="1280" height="709" />
+    </state>
+    <state x="104" y="23" width="1071" height="709" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.709@0.23.1280.709" timestamp="1602418342768" />
+    <state x="427" y="89" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1602418000359">
+      <screen x="0" y="23" width="1280" height="709" />
+    </state>
+    <state x="427" y="89" key="#com.intellij.ide.macro.MacrosDialog/0.23.1280.709@0.23.1280.709" timestamp="1602418000359" />
     <state x="1402" y="356" key="#getArticles" timestamp="1602296328432">
       <screen x="65" y="23" width="2495" height="1417" />
     </state>
@@ -158,49 +195,77 @@
       <screen x="65" y="23" width="2495" height="1417" />
     </state>
     <state x="985" y="320" key="#getWeather/65.23.2495.1417/2560.23.1792.1097@65.23.2495.1417" timestamp="1602291465869" />
-    <state width="1492" height="466" key="DebuggerActiveHint" timestamp="1602294563315">
-      <screen x="65" y="23" width="2495" height="1417" />
+    <state width="766" height="234" key="DebuggerActiveHint" timestamp="1602418740470">
+      <screen x="0" y="23" width="1280" height="709" />
     </state>
+    <state width="766" height="234" key="DebuggerActiveHint/0.23.1280.709@0.23.1280.709" timestamp="1602418740470" />
     <state width="1492" height="466" key="DebuggerActiveHint/65.23.2495.1417/2560.23.1792.1097@65.23.2495.1417" timestamp="1602294563315" />
     <state x="772" y="209" width="1433" height="1100" key="DiffContextDialog" timestamp="1602302304755">
       <screen x="65" y="23" width="2495" height="1417" />
     </state>
     <state x="772" y="209" width="1433" height="1100" key="DiffContextDialog/65.23.2495.1417/2560.23.1792.1097@65.23.2495.1417" timestamp="1602302304755" />
-    <state width="1746" height="385" key="GridCell.Tab.0.bottom" timestamp="1602297987131">
-      <screen x="65" y="23" width="2495" height="1417" />
+    <state x="494" y="115" width="598" height="525" key="EnvironmentVariablesDialog" timestamp="1602418339879">
+      <screen x="0" y="23" width="1280" height="709" />
     </state>
+    <state x="494" y="115" width="598" height="525" key="EnvironmentVariablesDialog/0.23.1280.709@0.23.1280.709" timestamp="1602418339879" />
+    <state width="1259" height="218" key="GridCell.Tab.0.bottom" timestamp="1602418713587">
+      <screen x="0" y="23" width="1280" height="709" />
+    </state>
+    <state width="1259" height="218" key="GridCell.Tab.0.bottom/0.23.1280.709@0.23.1280.709" timestamp="1602418713587" />
     <state width="1746" height="385" key="GridCell.Tab.0.bottom/65.23.2495.1417/2560.23.1792.1097@65.23.2495.1417" timestamp="1602297987131" />
-    <state width="1746" height="385" key="GridCell.Tab.0.center" timestamp="1602297987131">
-      <screen x="65" y="23" width="2495" height="1417" />
+    <state width="1259" height="218" key="GridCell.Tab.0.center" timestamp="1602418713586">
+      <screen x="0" y="23" width="1280" height="709" />
     </state>
+    <state width="1259" height="218" key="GridCell.Tab.0.center/0.23.1280.709@0.23.1280.709" timestamp="1602418713586" />
     <state width="1746" height="385" key="GridCell.Tab.0.center/65.23.2495.1417/2560.23.1792.1097@65.23.2495.1417" timestamp="1602297987131" />
-    <state width="1746" height="385" key="GridCell.Tab.0.left" timestamp="1602297987130">
-      <screen x="65" y="23" width="2495" height="1417" />
+    <state width="1259" height="218" key="GridCell.Tab.0.left" timestamp="1602418713585">
+      <screen x="0" y="23" width="1280" height="709" />
     </state>
+    <state width="1259" height="218" key="GridCell.Tab.0.left/0.23.1280.709@0.23.1280.709" timestamp="1602418713585" />
     <state width="1746" height="385" key="GridCell.Tab.0.left/65.23.2495.1417/2560.23.1792.1097@65.23.2495.1417" timestamp="1602297987130" />
-    <state width="1746" height="385" key="GridCell.Tab.0.right" timestamp="1602297987131">
-      <screen x="65" y="23" width="2495" height="1417" />
+    <state width="1259" height="218" key="GridCell.Tab.0.right" timestamp="1602418713586">
+      <screen x="0" y="23" width="1280" height="709" />
     </state>
+    <state width="1259" height="218" key="GridCell.Tab.0.right/0.23.1280.709@0.23.1280.709" timestamp="1602418713586" />
     <state width="1746" height="385" key="GridCell.Tab.0.right/65.23.2495.1417/2560.23.1792.1097@65.23.2495.1417" timestamp="1602297987131" />
-    <state width="1746" height="385" key="GridCell.Tab.1.bottom" timestamp="1602297987132">
-      <screen x="65" y="23" width="2495" height="1417" />
+    <state width="1259" height="218" key="GridCell.Tab.1.bottom" timestamp="1602418716068">
+      <screen x="0" y="23" width="1280" height="709" />
     </state>
+    <state width="1259" height="218" key="GridCell.Tab.1.bottom/0.23.1280.709@0.23.1280.709" timestamp="1602418716068" />
     <state width="1746" height="385" key="GridCell.Tab.1.bottom/65.23.2495.1417/2560.23.1792.1097@65.23.2495.1417" timestamp="1602297987132" />
-    <state width="1746" height="385" key="GridCell.Tab.1.center" timestamp="1602297987131">
-      <screen x="65" y="23" width="2495" height="1417" />
+    <state width="1259" height="218" key="GridCell.Tab.1.center" timestamp="1602418716067">
+      <screen x="0" y="23" width="1280" height="709" />
     </state>
+    <state width="1259" height="218" key="GridCell.Tab.1.center/0.23.1280.709@0.23.1280.709" timestamp="1602418716067" />
     <state width="1746" height="385" key="GridCell.Tab.1.center/65.23.2495.1417/2560.23.1792.1097@65.23.2495.1417" timestamp="1602297987131" />
-    <state width="1746" height="385" key="GridCell.Tab.1.left" timestamp="1602297987131">
-      <screen x="65" y="23" width="2495" height="1417" />
+    <state width="1259" height="218" key="GridCell.Tab.1.left" timestamp="1602418716066">
+      <screen x="0" y="23" width="1280" height="709" />
     </state>
+    <state width="1259" height="218" key="GridCell.Tab.1.left/0.23.1280.709@0.23.1280.709" timestamp="1602418716066" />
     <state width="1746" height="385" key="GridCell.Tab.1.left/65.23.2495.1417/2560.23.1792.1097@65.23.2495.1417" timestamp="1602297987131" />
-    <state width="1746" height="385" key="GridCell.Tab.1.right" timestamp="1602297987131">
-      <screen x="65" y="23" width="2495" height="1417" />
+    <state width="1259" height="218" key="GridCell.Tab.1.right" timestamp="1602418716067">
+      <screen x="0" y="23" width="1280" height="709" />
     </state>
+    <state width="1259" height="218" key="GridCell.Tab.1.right/0.23.1280.709@0.23.1280.709" timestamp="1602418716067" />
     <state width="1746" height="385" key="GridCell.Tab.1.right/65.23.2495.1417/2560.23.1792.1097@65.23.2495.1417" timestamp="1602297987131" />
+    <state x="141" y="23" width="997" height="709" key="SettingsEditor" timestamp="1602418374915">
+      <screen x="0" y="23" width="1280" height="709" />
+    </state>
+    <state x="141" y="23" width="997" height="709" key="SettingsEditor/0.23.1280.709@0.23.1280.709" timestamp="1602418374915" />
     <state x="772" y="209" width="1433" height="1100" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1602302304755">
       <screen x="65" y="23" width="2495" height="1417" />
     </state>
     <state x="772" y="209" width="1433" height="1100" key="com.intellij.history.integration.ui.views.FileHistoryDialog/65.23.2495.1417/2560.23.1792.1097@65.23.2495.1417" timestamp="1602302304755" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/weather/getWeather.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
