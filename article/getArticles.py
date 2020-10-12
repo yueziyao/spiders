@@ -69,6 +69,7 @@ def getUisdcHot():
             "img": item["img"],
             "zan": item["zan"],
             "from": "uisdc",
+            "time": time.time(),
         }
         x.append(article)
     # 解析
