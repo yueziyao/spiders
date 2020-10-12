@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-#import pandas as pd
+import pandas as pd
 import requests
 import time
 import json
-from article.db import insertData
+from db import *
 
 
 def getJuejinHotWeekly():
