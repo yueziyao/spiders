@@ -5,7 +5,6 @@ import time
 import json
 from db import *
 
-
 def getJuejinHotWeekly():
     headers = {
         'Content-Type': 'application/json',
@@ -41,12 +40,6 @@ def getJuejinHotWeekly():
     return lists
 
 def getUisdcHot():
-    # headers = {
-    # 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36'}
-    # response = requests.get( url='https://www.uisdc.com/', headers=headers)
-    # soup = BeautifulSoup(response.text, "html.parser")
-    # list = soup.select('.articles-hot')
-    # print(list);
     headers = {
         'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
         'Connection': 'close'}
@@ -75,12 +68,41 @@ def getUisdcHot():
     # 解析
     return x
 
+def get75Hot():
+    Headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+        }
+    api_url = "https://www.zhihu.com/api/v4/columns/75weekly/items"
+    res = requests.get(url=api_url,headers=Headers)
+    res = res.content.decode('utf-8')
+    lists = json.loads(res).get('data')
+    x = []
+    for item in lists:
+        c = time.localtime(item["created"])
+        article = {
+            "name": item["title"],
+            "url": item["url"],
+            "author": item["author"]['name'],
+            "content": item['content'],
+            "date": time.strftime("%Y-%m-%d",c),
+            "img": item["image_url"],
+            "zan": item["voteup_count"],
+            "from": "75",
+            "time": time.time(),
+        }
+        x.append(article)
+    # 解析
+    return x
+
 # 数据处理、入库
+# get75Hot()
 # getJuejinHotWeekly()
 # getUisdcHot()
 data1 = pd.DataFrame(getUisdcHot())
 insertData(data1)
 data2 = pd.DataFrame(getJuejinHotWeekly())
 insertData(data2)
+data3 = pd.DataFrame(get75Hot())
+insertData(data3)
 
 print("数据录入成功")
